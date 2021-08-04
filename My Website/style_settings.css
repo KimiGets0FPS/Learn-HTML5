@@ -1,0 +1,109 @@
+/*Basic Stuff for all web pages starts here*/
+body{
+    background-color: #403e3e;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.nav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Comic Sans MS", serif;
+}
+
+.nav a:hover {
+    color: cyan;
+}
+
+.nav a.active {
+    background-color: grey;
+    color: orange;
+}
+
+/*Basic Stuff for all web pages ends here*/
+
+/*Things for Home Page starts*/
+
+.home{
+    font-size: large;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", serif;
+}
+
+.button-about{
+    display: inline-flex;
+    color: #151D21;
+    background: #abff7a;
+    padding: 0;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    font-family: 'Comic Sans', serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button-about:hover{
+    filter: brightness(0.7)
+}
+
+/*Things for Home Page ends*/
+
+/*Things for Socials Page starts*/
+
+.welcome{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    font-family: Comic Sans MS, serif;
+}
+
+.socials {
+    color: white;
+    display: flex;
+}
+
+.socials figure {
+    margin: auto;
+    text-align: center;
+}
+
+figure figcaption {
+    color: white;
+    font-family: Comic Sans MS, serif;
+    font-size: large;
+}
+
+figure img:hover {
+    filter: brightness(0.7);
+}
+
+/*Things for Socials Page starts*/
+
+/*About me starts*/
+
+.about-me{
+    font-size: large;
+    font-family: Comic Sans MS, serif;
+    color: white;
+    text-align: center;
+}
+
+/*About me ends*/
+
+/*tests starts*/
+
+.tests{
+    color: white;
+    font-size: large;
+}
+
+/*tests ends*/
