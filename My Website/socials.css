@@ -1,0 +1,26 @@
+.welcome{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    font-family: Comic Sans MS, serif;
+}
+
+.socials {
+    color: white;
+    display: flex;
+}
+
+.socials figure {
+    margin: auto;
+    text-align: center;
+}
+
+figure figcaption {
+    color: white;
+    font-family: Comic Sans MS, serif;
+    font-size: large;
+}
+
+figure img:hover {
+    filter: brightness(0.7);
+}
