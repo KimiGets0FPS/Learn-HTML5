@@ -1,0 +1,1 @@
+elippses.drawImage(100, 10);
