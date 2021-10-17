@@ -1,0 +1,25 @@
+.home{
+    font-size: large;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", serif;
+}
+
+.button{
+    text-align: center;
+}
+
+.button-about{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.button-about:hover{
+    filter: brightness(0.9)
+}
